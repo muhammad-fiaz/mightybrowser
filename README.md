@@ -68,7 +68,12 @@ This command will show you a list of outdated packages. You can then use the flu
                    flutter run
 Please note that these instructions assume you have Flutter and Git already set up on your machine. If you encounter any [issues](https://github.com/muhammad-fiaz/mightybrowser/issues/new) or have any further questions, feel free to ask.
 
+if you encounter any build or run time error make sure run this command on your terminal:
+
+                   flutter clean
+
 also Make sure you have a connected device or emulator running before executing the flutter run command. This will launch the app on the selected device for testing and development.
+
 
 # Contributing
 
@@ -78,7 +83,7 @@ Contributions are welcome! If you encounter any issues or would like to suggest 
 
 # Contact
 
-For more information about Flarez Chat, you can reach out to the author:
+For more information about Mighty Browser, you can reach out to the author:
 
 👤 **Muhammad Fiaz**
 - GitHub: [muhammad-fiaz](https://github.com/muhammad-fiaz)
