@@ -1,0 +1,31 @@
+name: Flutter
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      # Uncomment this step to format the code using 'flutter format' on each commit.
+      # - name: Verify formatting
+      #   run: flutter format --set-exit-if-changed .
+
+      - name: Analyze project source
+        run: flutter analyze
+
+      - name: Run tests
+        run: flutter test
