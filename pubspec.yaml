@@ -1,3 +1,10 @@
+
+# |
+Project: Flarez Chat
+Author: Muhammad Fiaz
+GitHub: https://github.com/muhammad-fiaz
+# |
+
 name: mightybrowser
 description: MightyBrowser - A modern, open-source web browser in development, offering speed, security, and customization. Privacy-focused with ad-blocking and tracking prevention. Join our community to shape the future of browsing technology and enjoy a fast, secure, and personalized web experience.
 # The following line prevents the package from being accidentally published to
@@ -30,7 +37,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  shared_preferences: ^2.0.8
+  animate_do: ^2.0.0
+  smooth_page_indicator: ^1.1.0
+  flare_flutter: ^3.0.0
+  animated_text_kit: ^4.2.1
+  connectivity_plus: ^2.0.0
+  url_launcher: ^6.0.0
+  flutter_launcher_icons: ^0.9.3
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -39,6 +53,25 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  android: "ic_launcher_icons"
+  ios: true
+  image_path: "assets/images/logo_rounded.png"
+  min_sdk_android: 21
+  icon_size: 192
+  web:
+    generate: true
+    image_path: "assets/images/logo_rounded.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/logo_rounded.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/images/logo_rounded.png"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -59,9 +92,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets\images\logo_rounded.png
+    - assets\images\bg\bg1.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
