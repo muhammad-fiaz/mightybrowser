@@ -2,7 +2,7 @@
 
 MightyBrowser is a modern web browser that aims to provide users with a fast, secure, and customizable browsing experience. Built on the latest web technologies, MightyBrowser offers a sleek and intuitive user interface, empowering users to navigate the web effortlessly.
 
-**Please note that this project is a work in progress. **
+**Please note that this project is a work in progress**
 
 # Features
 
